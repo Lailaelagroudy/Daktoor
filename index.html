@@ -195,6 +195,10 @@ font-family: inherit;
 .bubble blockquote { border-right: 3px solid var(--accent); padding-right: 10px; color: var(--text-muted); margin: 6px 0; }
 @media (max-width: 700px) { #sidebar { display: none; } .msg.user { margin-left: 20px; } .msg.ai { margin-right: 20px; } }
 </style>
+<script type="module">
+  import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@1/dist/index.js';
+  inject();
+</script>
 </head>
 <body>
 <aside id="sidebar">
@@ -266,7 +270,7 @@ font-family: inherit;
 <button class="qp" onclick="askTopic('ما الفرق بين التكليف النائي والمركزي؟')">🗺️ نائي vs مركزي</button>
 <button class="qp" onclick="askTopic('ما وضع المتزوجات في التكليف؟')">💑 المتزوجات</button>
 <button class="qp" onclick="askTopic('هل أقدم على التكليف وأنا لسه في الامتياز؟')">📝 التقديم مبكراً</button>
-<button class="qp" onclick="askTopic('كيف تعمل حركة النيابات؟')">🏥 حركة النيابات</button>
+<button class="qp" onclick="askTopic('كيف تعمل حركة النيابات؟')">��� حركة النيابات</button>
 <button class="qp" onclick="askTopic('What is Takleef? I am a new graduate')">🇬🇧 What is Takleef?</button>
 </div>
 </div>
